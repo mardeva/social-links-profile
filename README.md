@@ -26,8 +26,8 @@ Challenge de Frontend Mentor realizado a fines de practicar HTML5, CSS3 y diseñ
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontmentor.io](https://www.frontendmentor.io/solutions/social-links-profile-solution-original-version-WqVPe2qgFy)
+- Live Site URL: [GitHub Pages](https://mardeva.github.io/social-links-profile/)
 
 
 ## Mi proceso
