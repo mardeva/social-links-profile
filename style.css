@@ -33,15 +33,15 @@ article {
 
 .section__image {
     border-radius: 50%;
-    padding: 1.65rem 1.9rem ;
-    
+    padding: 1.65rem 1.9rem;
+
     width: 55%;
 }
 
 .section__title {
     font-size: 1.55rem;
     font-weight: 400;
-    
+
 }
 
 .section__subtitle {
