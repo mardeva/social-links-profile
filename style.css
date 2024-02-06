@@ -27,6 +27,8 @@ article {
     width: 90%;
 }
 
+                            /* section */
+
 .section__container {
     text-align: center;
 }
@@ -34,7 +36,6 @@ article {
 .section__image {
     border-radius: 50%;
     padding: 1.65rem 1.9rem;
-
     width: 55%;
 }
 
@@ -54,6 +55,8 @@ article {
 .section__description {
     margin: 2rem auto 0.5rem;
 }
+
+                                /* Social */
 
 article div.social__container {
     flex-grow: 4;
@@ -85,8 +88,7 @@ li:hover a {
     cursor: pointer;    
 }
 
-
-footer {
+/* footer {
     .attribution {
         font-size: 11px;
         text-align: center;
@@ -95,38 +97,27 @@ footer {
     .attribution a {
         color: hsl(228, 45%, 44%);
     }
+} */
+
+@media screen and (width > 375px){
+    article{
+        width: 28vw;
+        padding-bottom: 2.7rem;
+    }
+    .section__image{
+        padding: 2.3rem 1.9rem 1.7rem;
+        width: 45.5%;
+    }
+    .section__title {
+        font-size: 1.4rem;
+        margin-bottom: 0.6rem;
+    
+    }
+    .section__subtitle {
+        
+        font-size: 0.875rem;
+        
+        margin: 0.4rem auto 0.6rem;
+    }
+    
 }
-
-/* # Front-end Style Guide
-
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-## Colors
-
-### Primary
-
-- Green: hsl(75, 94%, 57%)
-
-### Neutral
-
-- White: hsl(0, 0%, 100%)
-- Grey: hsl(0, 0%, 20%)
-- Dark Grey: hsl(0, 0%, 12%)
-- Off Black: hsl(0, 0%, 8%)
-
-## Typography
-
-### Body Copy
-
-- Font size (paragraph): 14px
-
-### Font
-
-- Family: [Inter](https://fonts.google.com/specimen/Inter)
-- Weights: 400, 600, 700
- */
