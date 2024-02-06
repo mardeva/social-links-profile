@@ -8,19 +8,23 @@ main {
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     color: hsl(0, 0%, 100%);
-    background-color: hsl(0, 0%, 12%);
+    background-color: hsl(0, 0%, 8%);
+    padding: 8rem 0.5rem;
     width: 100vw;
+
 }
 
 article {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
     margin: auto;
-    padding: 3rem 2rem;
+    padding: 0.1rem 1.8rem 1.3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
     text-align: center;
-    width: 80%;
+    width: 90%;
 }
 
 .section__container {
@@ -29,23 +33,26 @@ article {
 
 .section__image {
     border-radius: 50%;
-    padding: 2rem;
+    padding: 1.65rem 1.9rem ;
+    
+    width: 55%;
 }
 
 .section__title {
-    font-size: 1.575rem;
+    font-size: 1.55rem;
     font-weight: 400;
+    
 }
 
 .section__subtitle {
     color: hsl(75, 94%, 57%);
-    font-size: 0.9rem;
+    font-size: 0.875rem;
     font-weight: 400;
     margin: 0.7rem auto;
 }
 
 .section__description {
-    margin: 2rem auto 1.2rem;
+    margin: 2rem auto 0.5rem;
 }
 
 article div.social__container {
@@ -60,7 +67,7 @@ article div.social__container {
     margin-top: 1rem;
     border-radius: 6px;
     background-color: hsl(0, 0%, 20%);
-    padding: 0.7rem 1rem;
+    padding: 0.85rem 1rem;
 }
 
 a {
